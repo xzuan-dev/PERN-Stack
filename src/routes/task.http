@@ -1,0 +1,26 @@
+### OBTENER TAREAS
+GET http://localhost:3000/api/tasks
+
+### TAREA EN ESPECIFICO
+GET http://localhost:3000/api/tasks/1
+
+### CREAR UNA TAREA
+POST http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+    "title": "nuwa10xdxd",
+    "description": "xdasdasd"
+}
+
+### MODIFICAR/ACTUALIZAR UNA TAREA
+PUT http://localhost:3000/api/tasks/56
+Content-Type: application/json
+
+{
+    "title": "elias sos pro",
+    "description": "dale pete"
+}
+
+### BORRAR UNA TAREA
+DELETE http://localhost:3000/api/tasks/55
